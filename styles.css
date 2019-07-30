@@ -1,0 +1,75 @@
+
+* {
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+body {
+  background-image: url("https://media.herworld.com/public/glitter-7.gif")
+}
+
+.border3 {
+  padding:30px;
+}
+.border2 {
+  border: 5px solid #2AC2EB;
+}
+.border {
+border: 5px solid #C2FF7E;
+
+}
+.title{
+  font-family: "URW Chancery L",cursive;
+  font-weight: 900;
+  color: #FF3EA0;
+  background: #FEBFFF;
+  border: 5px solid #EB8549;
+  padding: 0px;
+  opacity: .9;
+
+  width:300px;
+  height: 50px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.tea{
+  width: 300px;
+  height: 250px;
+}
+
+.popcorn {
+  width: 300px;
+  height:250px;
+}
+
+.center {
+
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.images{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.message {
+  color: #FF3EA0;
+  background: #FEBFFF;
+    opacity: .9;
+  border: 5px solid #EBAB5B;
+  width:600px;
+  height: 100px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
